@@ -1,0 +1,137 @@
+*::after,*::before{
+    padding: 0;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+
+
+.background{
+    width: 430px;
+    height: 520px;
+    margin-top: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    left:30%;
+    top:60%;
+    background-color:#ffffff60;
+}
+.backgrounds{
+    margin-top: 90px;
+    width: 430px;
+    height: 650px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    left:30%;
+    top:60%;
+    background-color:#ffffff60;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(#df836e,#BA9B8D);
+   
+    left:-25% ;
+    top: -13%;
+}
+.shape:last-child{
+    background: linear-gradient(#318eff,#92c6f1);
+    right:-25% ;
+    bottom: -13%;
+}
+
+form{
+    height: 520px;
+    width: 430px;
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    left:30%;
+    top:60%;
+    backdrop-filter:blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    padding: 50px 45px;
+}
+ .forms{
+    margin-top: 90px;
+    height: 650px;
+    width: 430px;
+    background-color: rgba(255,255,255,0.13);
+    position:absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+left: 30%;
+    top:60%;
+    backdrop-filter:blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    padding: 50px 45px;
+}
+
+form *{
+    color:#521f25;
+    font-family: var(--primary-fonts);
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+ form h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+ }
+ form label{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+ input {
+    display:block;
+    height: 50px;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-radius: 15px;
+    padding: 0 10px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #521f25;
+}
+button{
+    margin-top: 30px;
+    width: 70%;
+    background-color: aliceblue;
+    padding: 7px 4px;
+    font-weight: 600;
+    cursor: pointer;margin-left: 40px;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-white);
+}
+
+
+
+
+form p{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    transform: none;
+}
+form p:hover{
+    color: #521f25;
+}

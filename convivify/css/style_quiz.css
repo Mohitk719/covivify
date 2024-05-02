@@ -1,0 +1,45 @@
+input[ type="radio"]:checked{
+    background-color: #8ec5fc;
+    border-color: #8ec5fc;
+}
+.btn{
+    padding: 2rem 5rem;
+}
+button{
+    padding: 0 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    -webkit-border-radius:5rem;
+    -moz-border-radius:5rem;
+    -ms-border-radius:5rem;
+    -o-border-radius:5rem;
+    background-color: #7090e7;
+    border:none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.result{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    background-color: #fff;
+    border-radius:0.5rem;
+    -webkit-border-radius:0.5rem;
+    -moz-border-radius:0.5rem;
+    -ms-border-radius:0.5rem;
+    -o-border-radius:0.5rem;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:2.4rem;
+    align-items:center;
+}
+
+.resulth2{
+    font-size: 3.4rem;
+}
+.result p{
+    font-size: 2rem;
+
+}

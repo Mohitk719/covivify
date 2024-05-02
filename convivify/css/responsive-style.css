@@ -1,0 +1,76 @@
+@media (max-width:1400px){
+    .textbox{
+        height:245px;width:270px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;
+    } 
+
+}
+
+
+
+@media (max-width:1250px){
+
+    
+    .textbox{
+        height:245px;width:220px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;
+    } 
+
+}
+
+
+
+
+@media (max-width:991px){
+    section{
+        padding: 20px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    
+    .header-scrolled{
+        height: auto;
+    }
+    .header_wrapper .menu-nevbar-nav{
+        text-align: center;
+        background-color:var(--bg-white);
+        padding-bottom: 15px;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+    .blog_wrapper .newsletter{
+        width: 100%;
+
+    }
+    .textbox{
+        height:245px;width:250px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;
+    }
+
+}
+
+
+
+@media(max-width:767px){
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .main-btn{
+        font-size: 13px;
+    }
+    .textbox{
+        height:245px;width:330px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;
+    }
+}
